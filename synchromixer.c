@@ -402,11 +402,13 @@ int main(int argc, char *argv[]) {
     }
     
     // correct max volume for... what exactly?? seems to work
-    if(max_volume <= 1) {
-        max_volume = 0;
-        return;
+    if(!normalized) {
+        if(max_volume <= 1) {
+            max_volume = 0;
+            return;
+        }
+        max_volume = 50*log10(max_volume);
     }
-    max_volume = 50*log10(max_volume);
     
     
     volumeDiff = source.min - target.min;
