@@ -4,7 +4,9 @@ Synchromixer enables setting a (proxy) mixer in between an audio application and
 
 ## Usage
 
+```
 [options...]
+
    -V          print version information
    -h          print this help message
    -d          daemonize application
@@ -15,7 +17,7 @@ Synchromixer enables setting a (proxy) mixer in between an audio application and
    -y          set target mixer control
    -m          set maximum volume [0-100|100*]
    -l          use linear volume control
-   
+```
 ## Compilation
 
 gcc synchromixer.c volume_mapping.c -lasound -o synchromixer -lm
