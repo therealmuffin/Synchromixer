@@ -1,5 +1,5 @@
 /****************************************************************************
- * Copyright (C) 2016 Muffinman
+ * Copyright (C) 2018 Muffinman
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -36,7 +36,7 @@
 #define PROGRAM_NAME "synchromixer"
 #define PROGRAM_VERSION "0.1"
 #define PROGRAM_LEGAL \
-"Copyright (C) 2016 Muffinman\n" \
+"Copyright (C) 2018 Muffinman\n" \
 "This is free software; see the source for copying conditions. There is NO\n" \
 "warranty; not even MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 
